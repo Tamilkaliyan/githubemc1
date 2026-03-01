@@ -1,0 +1,75 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+  width: 420px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+/* CENTER BUTTONS */
+.btn-center {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 5px;
+}
+
+.logout-btn {
+  background: red;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th {
+  background: #667eea;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+td button {
+  margin: 2px;
+}
+
+td button:first-child {
+  background: green;
+}
+
+td button:last-child {
+  background: red;
+}
